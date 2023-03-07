@@ -36,5 +36,21 @@
     <li>Postman</li>
 </ul>
 
+### Para iniciar o projeto, é necessário clonar o projeto do GitHub num diretório de sua preferência:
+  ``` 
+  cd "diretório"
+  git clone git@github.com:gui-costads/academia-digital.git
+  ```
 
+### Para construir o projeto com o Maven, executar os comando abaixo:
+  ```shell
+  mvn clean install
+  ```
+
+### Acessar api no postman para acessar recursos
+  ```
+  localhost:8080/alunos
+  Login: guilherme  
+  Password: 123
+  ```
 
